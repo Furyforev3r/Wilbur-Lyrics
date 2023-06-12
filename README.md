@@ -3,7 +3,7 @@
 **A cada 2 minutos envia uma notificação de uma parte aleatória de alguma música da trilogia da Egirl (I'm in love with an egirl, Your new boyfriend, Interned as ruined me) do Wilbur Soot!**
 # 🎵| Lyrics JSON:
 ```py
-musics = {
+{
     "iiwae": {
         "title": "I'm in love with an Egirl.",
         "lyrics": [
