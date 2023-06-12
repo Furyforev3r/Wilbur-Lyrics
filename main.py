@@ -77,7 +77,7 @@ musics = {
         "icon": "icons/iminlovewithanegirl.ico"
     },
     "iarm": {
-        "title": "Internet as Ruined Me.",
+        "title": "Internet has Ruined Me.",
         "lyrics": [
             "… My keyboard's like my heart",
             "It shines in RGB and it's full of blood",
