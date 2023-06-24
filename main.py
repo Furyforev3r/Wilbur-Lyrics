@@ -74,7 +74,8 @@ musics = {
             "Maybe if I act like them",
             "You'll respond to my DMs"
             ],
-        "icon": "icons/iminlovewithanegirl.ico"
+        "icon": "icons/iminlovewithanegirl.ico",
+        "author": "Wilbur Soot"
     },
     "iarm": {
         "title": "Internet has Ruined Me.",
@@ -126,7 +127,8 @@ musics = {
             "We used to sleep on call together",
             "We used to sleep (together)"
             ],
-        "icon": "icons/internetasruinedme.ico"
+        "icon": "icons/internetasruinedme.ico",
+        "author": "Wilbur Soot"
     },
     "ynb": {
         "title": "Your New Boyfriend.",
@@ -187,7 +189,60 @@ musics = {
             "Want you to care",
             "Want to smell your hair"
             ],
-        "icon": "icons/yournewboyfriend.ico"
+        "icon": "icons/yournewboyfriend.ico",
+        "author": "Wilbur Soot"
+    },
+    "poabl": {
+        "title": "Portrait of a Blank Slate.",
+        "lyrics": [
+            "He told me that much and now he's dead",
+            "Told me to kill my indulgences",
+            "With a sharp blow to the temple",
+            "Pick up the phone call and do everything he says",
+            "I could take a plastic camera",
+            "We could make such a pretty picture",
+            "Oh, so happy, oh, oh, so happy",
+            "I'm pretty cool once you get to know me",
+            "I feel at some point I broke my mind",
+            "I'm always searching the silent type",
+            "How do you all make it look so easy?",
+            "You open your hearts up so quickly, it scares me",
+            "She's an artist, paints across my chest",
+            "Goes to parties, act like hotel guests",
+            "Wake up Monday, now it's over",
+            "Don't you know no one gets what they came here for?",
+            "I could paint her, wrapped around her",
+            "We could make such a pretty picture",
+            "Oh, so happy, oh, oh, so happy",
+            "I'm pretty cool once you get to know me",
+            "But I'm just the same",
+            "I've got a boring name",
+            "Across the world from what you want and what you came here for",
+            "So I'll wait here for you",
+            "Said, ''Please, just let me stay''",
+            "Oh, just let me stay, oh",
+            "I guess you know now what to expect",
+            "He lives your own life in retrospect",
+            "You know it bores me? These insecurities",
+            "Breaks you down just to act as the architect",
+            "I could wait here, by the west pier",
+            "Watch the flotsam float, slowly disappear",
+            "Oh, so happy, oh, oh, so happy",
+            "If only you knew just how much better things could be",
+            "Another week of action",
+            "Another hypoglycemic reaction",
+            "But I'm just the same",
+            "I've got a boring name",
+            "Across the world from what you want and what you came here for",
+            "So I'll wait here for you",
+            "I said, ''Please, just let me stay''",
+            "Oh, just let me stay",
+            "Oh, just let me",
+            "I'm sorry, it's all so predictable",
+            "I'm sorry, it's all so predictable, I know",
+        ],
+        "icon": "icons/portraitofablankslate.ico",
+        "author": "Lovejoy"
     }
 }
 
@@ -196,7 +251,7 @@ while True:
     music = choice(list(musics.keys()))
     musicLyrics = choice(musics[music]["lyrics"])
     notification.notify(
-        title=f'♡ | {musics[music]["title"]} - Wilbur Soot!',
+        title=f'♡ | {musics[music]["title"]} - {musics[music]["author"]}!',
         message=musicLyrics,
         app_icon=musics[music]["icon"],
         timeout=60,
