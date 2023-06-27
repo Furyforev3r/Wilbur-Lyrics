@@ -8,7 +8,7 @@ git clone https://github.com/Furyforev3r/Youtube-Downloader-ExpressJS.git
 ```
 ## 📁 | Requiriments
 + **Python/Pip (and dependencies)**
-**Install dependencies:**
+### Install dependencies:
 ```bash
 pip install plyer
 ```
