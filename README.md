@@ -1,6 +1,22 @@
 ![OMG WILBUR](https://github.com/Furyforev3r/Wilbur-Lyrics/assets/88341564/99972351-7949-4a7c-9fea-f93d53eaf298)
 # ♡ | Wilbur-Lyrics
 **Every 2 minutes, it sends a notification of a random part of a song from the E-Girl Trilogy (I'm in love with an egirl, Your new boyfriend, Interned has ruined me) by Wilbur Soot or a part of a song from Lovejoy!**
+# 📥 | Installation
+**Clone the repository (or download manually):**
+```bash
+git clone https://github.com/Furyforev3r/Youtube-Downloader-ExpressJS.git
+```
+## 📁 | Requiriments
++ **Python/Pip (and dependencies)**
+**Install dependencies:**
+```bash
+pip install plyer
+```
+# 🖥️ How to Run
+**Run the aplication:**
+```bash
+py main.py
+```
 # 🎵| Lyrics JSON:
 ```py
 {
